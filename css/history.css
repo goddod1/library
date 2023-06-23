@@ -1,0 +1,46 @@
+div.scrollmenu2 {
+    background-color: #757edb;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu2 a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu2 a:hover {
+    background-color: rgba(255, 255, 255, 0.766);
+  }
+  #menu7{
+    margin-left:82%;
+  }
+  #menu8{
+    margin-left:2%;
+  }
+  .p1{
+    font-size: 35px;
+  }
+  .form1{
+    display: flex;
+    margin-top: -1%;
+  }
+  .inputsearch1{
+    margin-top: 0.1%; width:28%; height: 40px; font-size: 42px; margin-left: 60%;
+  }
+  .button1{
+    padding-left: 20px; padding-right: 20px; background-color: blue; 
+  }
+  .inputsubmit1{
+    background-color: red; color: white; margin-left: 1%; border: 1px solid red; padding-left: 20px; padding-right: 20px; font-size: 10px;
+  }
+  .image1{
+    margin-left: 5%;
+  }
+  .history{
+    margin-top:-2%;
+  }
+

@@ -114,19 +114,20 @@ th, td {
    
 <section class="body">
 <aside class="vertical-menu">
-  <a href="?option=home" class="active"><img src="home-alt-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=person"><img src="person-team-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=book"><img src="book-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=history"><img src="book-history-library-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=setting"><img src="setting-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=infor"><img src="information-circle-svgrepo-com.png" width="40" height="40"></a>
+  <div><a href="?option=home" ><img src="home-svgrepo-com (3).png" width="40" height="40">
+  <span class= 'menu__title'>HISTORY</span></a></div>
+  <div><a href="?option=person"><img src="users-more-svgrepo-com (1).png" width="40" height="40"></a></div>
+  <div><a href="?option=book"><img src="book-open-svgrepo-com (2).png" width="40" height="40"></a></div>
+  <div><a href="?option=history"><img src="book-shelf-svgrepo-com (2).png" width="40" height="40"></a></div>
+
 </aside>
         <article style="border: none; ">
             <?php
            if(isset($_GET['option'])){
             switch($_GET['option']){
                 case 'home':
-                    include "view/history.php";
+                    include "view/person.php";
+                    break;
                 case 'person':
                     include "view/person.php";
                     break;

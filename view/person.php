@@ -1,23 +1,26 @@
 <div>
-<div class="scrollmenu">
-  <a href="#" onclick="openPopup()"><img src="person-add-svgrepo-com.png" width="25" height="25"></a>
-  <a href="?option=person"><img src="table-svgrepo-com.png" width="25" height="25"></a>
+<div class="scrollmenu" style="display: flex; font-size:12px;">
+  <div style="display: block; font-size:12px; "><a style="margin-top:-15%;" href="#" onclick="openPopup()"><img src="user-add-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">ADD</p></a></div>
+  <div style="display: block; font-size:12px; "><a style="margin-top:-10%;" href="?option=person"><img src="table-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">MANAGE</p></a></div>
   <!-- <a href="?option=book"><img src="book-svgrepo-com.png" wwidth="25" height="25"></a> -->
-  <a href="?option=person&account" id="menu1"><img src="person-account-circle-svgrepo-com (1).png" width="25" height="25"></a>
-  <a href="?option=setting" id="menu2"><img src="setting-svgrepo-com.png" width="25" height="25"></a>
-  <a href="?option=person&infor" id="menu3"><img src="help-circle-svgrepo-com.png" width="25" height="25"></a>
+  <div style="display: block; font-size:12px;" id="menu1"><a style="margin-top:-10%;" href="?option=person&account"><img src="person-account-circle-svgrepo-com (1).png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">ACCOUNT</p></a></div>
+  <div style="display: block; font-size:12px;" id="menu2"><a style="margin-top:-10%;" href="?option=person&setting" ><img src="setting-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">SETTING</p></a></div>
+  <div style="display: block; font-size:12px;" id="menu3"><a style="margin-top:-10%;" href="?option=person&help" ><img src="help-octagon-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">HELP</p></a></div>
 <br>
 </div>
-<p style="font-size: 35px;"></p>
+<p class="p"></p>
 <div>
-            <form method="post" style="display: flex; margin-top: -2%;">
-                <input style="margin-top: 0.35%; width:28%; height: 35px; font-size: 42px; margin-left: 60%;" type="search"
-                    name="username"><input style="font-size: 27px;" type="image" src="search-square-svgrepo-com.png" alt="Submit" width="45" height="45" name="search">
-                    <input style="background-color: red; color: white; margin-left: 1%; border: 1px solid black; padding-left: 20px; padding-right: 20px; font-size: 10px;" type="submit" name="delete" value="DELETE">
+            <form method="post" class="form">
+                <input class="inputsearch" type="search"
+                    name="username"><button class="button"><img src="search-magnifying-glass-svgrepo-com (1).png" width="25" height="25"></button>
+                    <!-- <input style="font-size: 27px;" type="image" src="search-square-svgrepo-com.png" alt="Submit" width="45" height="45" name="search"> -->
+                    
+                    <input class="inputsubmit" type="submit" name="delete" value="DELETE">
             </form>
+                
 </div>
-<div class="">
-    <img src="Screenshot 2023-06-22 224226.png" width="1365" height="660">
+<div class="image">
+    <img src="Screenshot 2023-06-22 224226.png" width="1750" height="750">
 </div>
 </div>
 
