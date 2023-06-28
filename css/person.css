@@ -1,0 +1,47 @@
+div.scrollmenu {
+
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: black;;
+    background-color: rgb(14, 136, 28);;
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: rgba(2, 66, 2, 0.766);
+  }
+  #menu1{
+    margin-left:75%;
+  }
+  #menu2{
+    margin-left:2%;
+  }
+  #menu3{
+    margin-left:2%;
+  }
+  .p{
+    font-size: 35px;
+  }
+  .form{
+    display: flex;
+    margin-top: -1%;
+  }
+  .inputsearch{
+    margin-top: 0.1%; width:28%; height: 40px; font-size: 42px; margin-left: 60%;
+  }
+  .button{
+    padding-left: 20px; padding-right: 20px; background-color: rgb(97, 97, 218); 
+  }
+  .inputsubmit{
+    background-color: red; color: white; margin-left: 1%; border: 1px solid red; padding-left: 20px; padding-right: 20px; font-size: 10px;
+  }
+  .image{
+    margin-left: 5%;
+  }
+  

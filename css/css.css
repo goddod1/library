@@ -1,0 +1,37 @@
+
+.vertical-menu {
+  width: 50px;
+  background-color: rgb(50, 84, 134);
+  height: 750px;
+}
+
+.menu__title {
+  position: relative;
+  top: 2rem;
+  left: -0.5rem;
+}
+  
+  .vertical-menu a {
+    height: 40px;
+    background-color: rgb(50, 84, 134);
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+  .vertical-menu a:hover {
+    background-color: #cccccc;
+  }
+  aside{
+    float: left;
+    justify-content: center;
+    display: block;
+
+  }
+  article{
+    float:center;
+    
+  }
+  
+
