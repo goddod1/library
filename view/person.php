@@ -1,9 +1,15 @@
 <div style="background-color: rgb(187, 194, 200);">
 <div class="scrollmenu" style="display: flex;">
-  <div style="margin-left:1%; display: flex; margin-bottom: 2%; margin-top:1%;"><a style=" font-size: 17px; background-color: rgba(0, 66, 0, 0.766);" href="#" onclick="openPopup()"><img src="user-add-svgrepo-com.png" width="25" height="25"></a><a style=" font-size: 17px; color: white;" href="#" onclick="openPopup()">ADD</a></div>
+  <div style="display: flex;
+  align-items: center; background-color: green  ;"><a style=" font-size: 17px; background-color: rgba(0, 66, 0, 0.766);" href="#" onclick="openPopup()"><img src="user-add-svgrepo-com.png" width="25" height="25"></a><a style=" font-size: 17px; color: white;" href="#" onclick="openPopup()">ADD</a></div>
   <div style="margin-left:1%; display: flex; margin-bottom: 2%; margin-top:1%;"><a style=" font-size: 17px; background-color: rgba(0, 66, 0, 0.766);" href="?option=person"><img src="table-svgrepo-com (1).png" width="25" height="25"></a><a style="font-size: 17px; color: white;" href="?option=person">MANAGE</a></div>
-  <!-- <a href="?option=book"><img src="book-svgrepo-com.png" wwidth="25" height="25"></a> -->
-
+  <!-- <a href="?option=book"><img src="book-svg
+  repo-com.png" wwidth="25" height="25"></a> -->
+    <button class="btn-person">
+        <div class="btn-add"><img class="icon--img" src="user-add-svgrepo-com.png" width="25" height="25">
+        </div>
+         <span class="title--btn">ADD</span>   
+    </button>
 </div>
 
 <div style="margin-top: -2.7%;">
