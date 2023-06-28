@@ -109,38 +109,54 @@ th, td {
 </head>
 
 <body>
-    <header></header>
+    <header>
+    <?php
+           if(isset($_GET['option'])){
+            switch($_GET['option']){
+                case 'home':
+                    include "view1/person1.php";
+                    break;
+                case 'person':
+                    include "view1/person1.php";
+                    break;  
+                case 'book':
+                    include "view1/book1.php";
+                    break;
+                case 'history':
+                    include "view1/history1.php";
+                    break;
+                case 'bookupdate':
+                    include "view1/update1.php";
+                    break;
+                    
+                }
+            }
+        ?>
+    </header>
     <nav></nav>
    
-<section class="body">
-<aside class="vertical-menu">
-  <a href="?option=home" class="active"><img src="home-alt-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=person"><img src="person-team-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=book"><img src="book-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=history"><img src="book-history-library-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=setting"><img src="setting-svgrepo-com.png" width="40" height="40"></a>
-  <a href="?option=infor"><img src="information-circle-svgrepo-com.png" width="40" height="40"></a>
+<section class="body" >
+<aside class="vertical-menu"  >
+  <div><a href="?option=home"><img src="home-svgrepo-com (3).png" width="25" height="25"></a></div>
+  <div><a href="?option=person"><img src="users-more-svgrepo-com (1).png" width="25" height="25"></a></div>
+  <div><a href="?option=book"><img src="book-open-svgrepo-com (2).png" width="25" height="25"></a></div>
+  <div><a href="?option=history"><img src="book-shelf-svgrepo-com (2).png" width="25" height="25"></a></div>
 </aside>
-        <article style="border: none; ">
+        <article style="background-color: rgb(187, 194, 200);">
             <?php
            if(isset($_GET['option'])){
             switch($_GET['option']){
                 case 'home':
-                    include "view/history.php";
-                case 'person':
                     include "view/person.php";
                     break;
+                case 'person':
+                    include "view/person.php";
+                    break;  
                 case 'book':
                     include "view/book.php";
                     break;
                 case 'history':
                     include "view/history.php";
-                    break;
-                case 'setting':
-                    include "view/setting.php";
-                    break;
-                case 'infor':
-                    include "view/infor.php";
                     break;
                 case 'bookupdate':
                     include "view/update.php";
