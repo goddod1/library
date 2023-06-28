@@ -1,15 +1,18 @@
-<div>
-<div class="scrollmenu" style="display: flex; font-size:12px;">
-  <div style="display: block; font-size:12px; "><a style="margin-top:-15%;" href="#" onclick="openPopup()"><img src="user-add-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">ADD</p></a></div>
-  <div style="display: block; font-size:12px; "><a style="margin-top:-10%;" href="?option=person"><img src="table-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">MANAGE</p></a></div>
-  <!-- <a href="?option=book"><img src="book-svgrepo-com.png" wwidth="25" height="25"></a> -->
-  <div style="display: block; font-size:12px;" id="menu1"><a style="margin-top:-10%;" href="?option=person&account"><img src="person-account-circle-svgrepo-com (1).png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">ACCOUNT</p></a></div>
-  <div style="display: block; font-size:12px;" id="menu2"><a style="margin-top:-10%;" href="?option=person&setting" ><img src="setting-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">SETTING</p></a></div>
-  <div style="display: block; font-size:12px;" id="menu3"><a style="margin-top:-10%;" href="?option=person&help" ><img src="help-octagon-svgrepo-com.png" width="25" height="25"><p style="font-size: 12px; margin-bottom: -2%;">HELP</p></a></div>
-<br>
+<div style="background-color: rgb(187, 194, 200);">
+<div class="scrollmenu" style="display: flex;">
+  <div style="display: flex;
+  align-items: center; background-color: green  ;"><a style=" font-size: 17px; background-color: rgba(0, 66, 0, 0.766);" href="#" onclick="openPopup()"><img src="user-add-svgrepo-com.png" width="25" height="25"></a><a style=" font-size: 17px; color: white;" href="#" onclick="openPopup()">ADD</a></div>
+  <div style="margin-left:1%; display: flex; margin-bottom: 2%; margin-top:1%;"><a style=" font-size: 17px; background-color: rgba(0, 66, 0, 0.766);" href="?option=person"><img src="table-svgrepo-com (1).png" width="25" height="25"></a><a style="font-size: 17px; color: white;" href="?option=person">MANAGE</a></div>
+  <!-- <a href="?option=book"><img src="book-svg
+  repo-com.png" wwidth="25" height="25"></a> -->
+    <button class="btn-person">
+        <div class="btn-add"><img class="icon--img" src="user-add-svgrepo-com.png" width="25" height="25">
+        </div>
+         <span class="title--btn">ADD</span>   
+    </button>
 </div>
-<p class="p"></p>
-<div>
+
+<div style="margin-top: -2.7%;">
             <form method="post" class="form">
                 <input class="inputsearch" type="search"
                     name="username"><button class="button"><img src="search-magnifying-glass-svgrepo-com (1).png" width="25" height="25"></button>
@@ -19,8 +22,9 @@
             </form>
                 
 </div>
+<p></p>
 <div class="image">
-    <img src="Screenshot 2023-06-22 224226.png" width="1750" height="750">
+    <img src="Screenshot 2023-06-22 224226.png" width="1365" height="650">
 </div>
 </div>
 

@@ -1,7 +1,8 @@
 
 .vertical-menu {
-  width: 80px;
-
+  width: 50px;
+  background-color: rgb(50, 84, 134);
+  height: 750px;
 }
 
 .menu__title {
@@ -11,7 +12,7 @@
 }
   
   .vertical-menu a {
-    height: 134px;
+    height: 40px;
     background-color: rgb(50, 84, 134);
     color: black;
     display: block;
@@ -26,6 +27,7 @@
     float: left;
     justify-content: center;
     display: block;
+
   }
   article{
     float:center;

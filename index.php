@@ -109,19 +109,40 @@ th, td {
 </head>
 
 <body>
-    <header></header>
+    <header>
+    <?php
+           if(isset($_GET['option'])){
+            switch($_GET['option']){
+                case 'home':
+                    include "view1/person1.php";
+                    break;
+                case 'person':
+                    include "view1/person1.php";
+                    break;  
+                case 'book':
+                    include "view1/book1.php";
+                    break;
+                case 'history':
+                    include "view1/history1.php";
+                    break;
+                case 'bookupdate':
+                    include "view1/update1.php";
+                    break;
+                    
+                }
+            }
+        ?>
+    </header>
     <nav></nav>
    
-<section class="body">
-<aside class="vertical-menu">
-  <div><a href="?option=home" ><img src="home-svgrepo-com (3).png" width="40" height="40">
-  <span class= 'menu__title'>HISTORY</span></a></div>
-  <div><a href="?option=person"><img src="users-more-svgrepo-com (1).png" width="40" height="40"></a></div>
-  <div><a href="?option=book"><img src="book-open-svgrepo-com (2).png" width="40" height="40"></a></div>
-  <div><a href="?option=history"><img src="book-shelf-svgrepo-com (2).png" width="40" height="40"></a></div>
-
+<section class="body" >
+<aside class="vertical-menu"  >
+  <div><a href="?option=home"><img src="home-svgrepo-com (3).png" width="25" height="25"></a></div>
+  <div><a href="?option=person"><img src="users-more-svgrepo-com (1).png" width="25" height="25"></a></div>
+  <div><a href="?option=book"><img src="book-open-svgrepo-com (2).png" width="25" height="25"></a></div>
+  <div><a href="?option=history"><img src="book-shelf-svgrepo-com (2).png" width="25" height="25"></a></div>
 </aside>
-        <article style="border: none; ">
+        <article style="background-color: rgb(187, 194, 200);">
             <?php
            if(isset($_GET['option'])){
             switch($_GET['option']){
@@ -130,18 +151,12 @@ th, td {
                     break;
                 case 'person':
                     include "view/person.php";
-                    break;
+                    break;  
                 case 'book':
                     include "view/book.php";
                     break;
                 case 'history':
                     include "view/history.php";
-                    break;
-                case 'setting':
-                    include "view/setting.php";
-                    break;
-                case 'infor':
-                    include "view/infor.php";
                     break;
                 case 'bookupdate':
                     include "view/update.php";
