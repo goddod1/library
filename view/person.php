@@ -6,9 +6,9 @@
   <!-- <a href="?option=book"><img src="book-svg
   repo-com.png" wwidth="25" height="25"></a> -->
     <button class="btn-person">
-        <div class="btn-add"><img class="icon--img" src="user-add-svgrepo-com.png" width="25" height="25">
-        </div>
-         <span class="title--btn">ADD</span>   
+        <a class="btn-add" href="#" onclick="openPopup()"><img class="icon--img" src="user-add-svgrepo-com.png" width="25" height="25"></a>
+        
+        <a class="title--btn" href="#" onclick="openPopup()">ADD</a>
     </button>
 </div>
 
