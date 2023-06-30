@@ -2,6 +2,7 @@ div.scrollmenu {
 
     overflow: auto;
     white-space: nowrap;
+    display: flex;
   }
   
   div.scrollmenu a {
@@ -36,13 +37,19 @@ div.scrollmenu {
     margin-top: 0.1%; width:28%; height: 40px; font-size: 42px; margin-left: 60%;
   }
   .button{
-    padding-left: 20px; padding-right: 20px; background-color: rgb(97, 97, 218); 
+    padding-left: 2%;
+    padding-right: 2%; background-color: rgb(97, 97, 218); 
+    width: 6%;
+    height: 42px;
   }
   .inputsubmit{
     background-color: red; color: white; margin-left: 1%; border: 1px solid red; padding-left: 20px; padding-right: 20px; font-size: 10px;
   }
   .image{
     margin-left: 5%;
+  }
+  button{
+    padding: 0px;
   }
 .btn-person{
   margin-top: 15px;
@@ -51,7 +58,7 @@ div.scrollmenu {
   display: flex; 
   align-items:center;
   color: white;
-  width: 200px;
+  width: 10%;
   height: 50px;
   border: none;
 }
@@ -61,47 +68,27 @@ div.scrollmenu {
   height: 2rem;
   width: 40%;
   position: relative;
-  left: -0.4rem;
   
 }
 
 .icon--img {
   background-color: rgba(2, 66, 2, 0.766);
   position: relative;
-  top:-0.3rem;
-  height: 2.55rem;
+  top: -0.5rem;
+  height: 3rem;
   width: 100%;
   
 }
 
 .title--btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
   font-size: 1rem;
   position: relative;
-  width: 80%;
-  
-  padding-top: 8%;
-  padding-bottom: 8%;
-  
+  width: 70%;
+  padding-bottom: 12%;
+  padding-top: 12%;
+  right:0.1%;
 }
-
-@media (min-width: 1025px) {
-  .btn-person {
-    width: 200px;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1024px) {
-  .btn-person{
-    width: 150px;
-  }
-}
-
-@media (max-width: 480px) {
-  .btn-person{
-    width: 100px;
-  }
-  
+.background--button{
+  background-color: rgb(187, 194, 200);
 }
